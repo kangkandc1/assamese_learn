@@ -1,0 +1,89 @@
+{
+  "title": "Lektion 1 – Begrüßung",
+  "vocab": [
+    {
+      "deutsch": "Er",
+      "assamese": "Ei-tu",
+      "link to audio":"/audio/l3/eitu.m4a"
+    },
+    {
+      "deutsch": "sie",
+      "assamese": "Ei-joni",
+      "link to audio": "/audio/l3/eijoni.m4a"
+    },
+    {
+      "deutsch": "Er/Sie (formell)",
+      "assamese": "Ei-jon",
+      "link to audio": "/audio/l3/eijon.m4a"
+    },
+    {
+      "deutsch": "Du",
+      "assamese": "tumi",
+      "link to audio": "/audio/l3/tumi.m4a"
+    },
+    {
+      "deutsch": "zustand",
+      "assamese": "khobor",
+      "link to audio": "/audio/l3/khobor.m4a"
+    },
+    {
+      "deutsch": "Ihre (Formell)",
+      "assamese": "Apunar",
+      "link to audio": "/audio/l3/apunar.m4a"
+    },
+    {
+      "deutsch": "dein",
+      "assamese": "tumar",
+      "link to audio": "/audio/l3/tumar.m4a"
+    },
+
+
+    {
+      "deutsch": "danke",
+      "assamese": "dhonyobad",
+      "link to audio": "/audio/l3/dhonyobad.m4a"
+    },
+    {
+      "deutsch": "wie ist (frage nach Zustand)",
+      "assamese": "kenekua",
+      "link to audio": "/audio/l3/kenekua.m4a"
+    },
+    {
+      "deutsch": "bin/sind/seid (in einem Stand)",
+      "assamese": "asa/ase (informell/formell)",
+      "link to audio": "/audio/l3/asa_ase.m4a"
+    }
+  ],
+  "examples": [
+    {
+      "assamese": "Nomoskar, apunar khobor kenekua",
+      "deutsch": "Hallo, Wie gehts Ihnen",
+      "wort für wort": "Hallo, Ihre Zustand wie ist?",
+      "link": "/audio/l3/L3_Example_1.m4a"
+    },
+    {
+      "assamese": "Nomoskar, ki khobor",
+      "deutsch": "Hallo, wie gehts dir?",
+      "wort für wort": "Hallo, wie zustand (deine und ist ist versteck)",
+      "link": "/audio/l3/L3_Example_2.m4a"
+    },
+
+    
+     {
+      "assamese": "Tumi bhale asa ne?",
+      "deutsch": "Gehts dir gut?",
+      "wort für wort": "Du gut zustand ist ? (ne ist fragepartikel)",
+      "link": "/audio/l3/L3_Example_3.m4a"
+    }
+
+    
+
+
+  ],
+  "grammatik": [
+    {
+      "erklärung": "Ne ist ein Fragepartikel. Mann verwendet das insbesondere, wenn mann nach dem Stand/Zustand von etwas/jemand erkundigt"
+    }
+    
+  ]
+}
