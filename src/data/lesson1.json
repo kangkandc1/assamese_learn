@@ -1,0 +1,67 @@
+{
+  "title": "Lektion 1 – Begrüßung",
+  "vocab": [
+    {
+      "deutsch": "Hallo",
+      "assamese": "Nomoskar",
+      "link to audio":"/audio/l1/nomoskar.mp3"
+    },
+    {
+      "deutsch": "Sie",
+      "assamese": "Apuni",
+      "link to audio": "/audio/l1/apuni.mp3"
+    },
+    {
+      "deutsch": "Ihre",
+      "assamese": "Apunar",
+      "link to audio": "/audio/l1/apunar.mp3"
+    },
+    {
+      "deutsch": "Was",
+      "assamese": "ki",
+      "link to audio": "/audio/l1/ki.mp3"
+    },
+    {
+      "deutsch": "ist, bin",
+      "assamese": "hoi",
+      "link to audio": "/audio/l1/hoi.mp3"
+    },
+    {
+      "deutsch": "ja, stimmt",
+      "assamese": "ao",
+      "link to audio": "/audio/l1/ao.mp3"
+    },
+    {
+      "deutsch": "Inder",
+      "assamese": "bharotiyo",
+      "link to audio": "/audio/l1/bharotiyo.mp3"
+    },
+    {
+      "deutsch": "mein, meine",
+      "assamese": "mur",
+      "link to audio": "/audio/l1/mur.mp3"
+    }
+  ],
+  "examples": [
+    {
+      "assamese": "Nomoskar",
+      "deutsch": "Hallo",
+      "wort für wort": "Hallo",
+      "link": ""
+    },
+    {
+      "assamese": "Apunar nam ki?",
+      "deutsch": "Was ist Ihr Name?",
+      "wort für wort": "Was Ihr Name ist",
+      "link": "/audio/l1/L1_Example_1.m4a"
+    }
+  ],
+  "grammatik": [
+    {
+      "erklärung": "Im Assamesischen gibt es keine formelle/informelle Unterscheidung wie im Deutschen (Sie/du). Das Wort 'Apuni' ist jedoch die respektvolle Form und entspricht dem deutschen 'Sie'."
+    },
+    {
+      "erklärung": "Die Wortstellung im Assamesischen folgt dem Muster Subjekt–Objekt–Verb (SOV), während das Deutsche flexibler ist. Daher kommt das Verb 'hoi' (ist) am Ende des Satzes."
+    }
+  ]
+}

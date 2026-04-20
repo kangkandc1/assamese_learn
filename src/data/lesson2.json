@@ -1,0 +1,67 @@
+{
+  "title": "Lektion 1 – Begrüßung",
+  "vocab": [
+    {
+      "deutsch": "Und",
+      "assamese": "Aru",
+      "link to audio":"/audio/l2/aru.m4a"
+    },
+    {
+      "deutsch": "ich",
+      "assamese": "Moi (meistens Nominativ)",
+      "link to audio": "/audio/l2/moi.m4a"
+    },
+    {
+      "deutsch": "aus/von",
+      "assamese": "pora",
+      "link to audio": "/audio/l2/pora.m4a"
+    },
+    {
+      "deutsch": "treffen",
+      "assamese": "logpai",
+      "link to audio": "/audio/l2/logpai.m4a"
+    },
+    {
+      "deutsch": "gut",
+      "assamese": "bhal",
+      "link to audio": "/audio/l2/bhal.m4a"
+    },
+    {
+      "deutsch": "empfinde ",
+      "assamese": "lagise",
+      "link to audio": "/audio/l2/lagise.m4a"
+    },
+    {
+      "deutsch": "auch",
+      "assamese": "moi-o (subjekt +o)",
+      "link to audio": "/audio/l2/moio.m4a"
+    },
+
+    {
+      "deutsch":"ist/seid/bist ?",
+      "assamese":"niki (aber bei fragen )" ,
+      "link to audio": "/audio/l2/niki.m4a"
+    }
+    
+  ],
+  "examples": [
+    {
+      "assamese": "Apuni German aru French hoi",
+      "deutsch": "Sie sind Deutsch und Franzosich",
+      "wort für wort": "Sie Deutsch und Franzosich sind",
+      "link": "/audio/l2/L2_example_1.m4a"
+    },
+    {
+      "assamese": "Apuni German hoi niki?",
+      "deutsch": "Sind Sie Deutsch?",
+      "wort für wort": "Sie Deutsch sind?",
+      "link": "/audio/l2/L2_example_2.m4a"
+    }
+  ],
+  "grammatik": [
+    
+    {
+      "erklärung":"Im Deutschen bildest du eine Ja/Nein-Frage ganz einfach durch Inversion: Das Verb rückt an den Satzanfang. Aus \u201eDu kommst morgen\u201c wird \u201eKommst du morgen?\u201c. Die Wortstellung signalisiert die Frage.\nAssamesisch macht das komplett anders. Die Wortstellung bleibt völlig unverändert \u2013 Subjekt, Objekt, Verb, alles bleibt an seinem Platz. Stattdessen hängt man eine Fragepartikel ans Ende des Satzes, ähnlich wie im Japanischen oder Türkischen. Der Satz sieht aus wie eine Aussage, wird aber durch dieses kleine Wörtchen am Ende zur Frage. Du musst also nichts umstellen \u2013 du erkennst die Frage erst ganz am Schluss."
+    }
+  ]
+}
