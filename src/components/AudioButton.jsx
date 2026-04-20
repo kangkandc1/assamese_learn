@@ -18,6 +18,7 @@ export default function AudioButton({ url }) {
     setStatus("loading");
 
     const resolvedUrl = url.startsWith("/") ? process.env.PUBLIC_URL + url : url;
+    console.log("Audio URL:", resolvedUrl);
     const audio = new Audio(resolvedUrl);
     audioRef.current = audio;
 
