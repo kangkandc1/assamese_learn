@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { FiMenu } from "react-icons/fi";
 import Sidebar from "./components/Sidebar";
 import LessonPage from "./components/LessonPage";
 import Home from "./pages/Home";
 import "./App.css";
 
 function Layout() {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
   const navigate = useNavigate();
 
   return (
@@ -14,8 +15,18 @@ function Layout() {
       <Sidebar
         collapsed={collapsed}
         onToggle={() => setCollapsed((c) => !c)}
-        onNavigate={(path) => path && navigate(path)}
+        onNavigate={(path) => {
+          if (path) navigate(path);
+          setCollapsed(true);
+        }}
       />
+      <button
+        className={`mobile-menu-btn ${collapsed ? "" : "mobile-menu-btn--hidden"}`}
+        onClick={() => setCollapsed(false)}
+        title="Menü öffnen"
+      >
+        <FiMenu size={20} />
+      </button>
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
