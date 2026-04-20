@@ -1,27 +1,11 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { FiPlay, FiSquare, FiLoader } from "react-icons/fi";
-
-/**
- * Converts a Google Drive share link to a direct download URL suitable for
- * the HTML Audio API.  If the link is not a Drive link it is returned as-is.
- */
-function toDirectAudioUrl(url) {
-  if (!url) return null;
-  // Match both /file/d/<id>/view and /open?id=<id> patterns
-  const match = url.match(/\/file\/d\/([^/]+)/) || url.match(/id=([^&]+)/);
-  if (match) {
-    return `https://drive.google.com/uc?export=download&id=${match[1]}`;
-  }
-  return url;
-}
 
 export default function AudioButton({ url }) {
   const [status, setStatus] = useState("idle"); // idle | loading | playing | error
   const audioRef = useRef(null);
 
   if (!url) return null;
-
-  const directUrl = toDirectAudioUrl(url);
 
   const handleClick = () => {
     if (status === "playing") {
@@ -33,18 +17,22 @@ export default function AudioButton({ url }) {
 
     setStatus("loading");
 
-    const audio = new Audio(directUrl);
+    const resolvedUrl = url.startsWith("/") ? process.env.PUBLIC_URL + url : url;
+    const audio = new Audio(resolvedUrl);
     audioRef.current = audio;
 
-    audio.addEventListener("canplaythrough", () => {
-      setStatus("playing");
-      audio.play().catch(() => setStatus("error"));
+    audio.addEventListener("ended", () => setStatus("idle"));
+    audio.addEventListener("error", (e) => {
+      console.error("Audio error:", e, audio.error);
+      setStatus("error");
     });
 
-    audio.addEventListener("ended", () => setStatus("idle"));
-    audio.addEventListener("error", () => setStatus("error"));
-
-    audio.load();
+    audio.play()
+      .then(() => setStatus("playing"))
+      .catch((e) => {
+        console.error("Audio play() rejected:", e);
+        setStatus("error");
+      });
   };
 
   const icon = () => {
