@@ -4,6 +4,13 @@ import lessons from "../data/lessons";
 import AudioButton from "./AudioButton";
 import { FiBookOpen, FiMessageSquare, FiInfo } from "react-icons/fi";
 
+function parseHighlight(text) {
+  if (!text) return null;
+  return text.split(/\*([^*]+)\*/).map((part, i) =>
+    i % 2 === 1 ? <span key={i} style={{ color: "#e07b39" }}>{part}</span> : part
+  );
+}
+
 export default function LessonPage() {
   const { id } = useParams();
   const [data, setData] = useState(null);
@@ -104,7 +111,7 @@ export default function LessonPage() {
             {data.grammatik.map((item, i) => (
               <div key={i} className="grammatik-item">
                 <span className="grammatik-index">{i + 1}</span>
-                <p>{item["erklärung"]}</p>
+                <p>{parseHighlight(item["erklärung"])}</p>
               </div>
             ))}
           </div>

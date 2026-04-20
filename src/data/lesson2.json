@@ -1,5 +1,5 @@
 {
-  "title": "Lektion 1 – Begrüßung",
+  "title": "Lektion 2 – ich bin",
   "vocab": [
     {
       "deutsch": "Und",
@@ -62,6 +62,9 @@
     
     {
       "erklärung":"Im Deutschen bildest du eine Ja/Nein-Frage ganz einfach durch Inversion: Das Verb rückt an den Satzanfang. Aus \u201eDu kommst morgen\u201c wird \u201eKommst du morgen?\u201c. Die Wortstellung signalisiert die Frage.\nAssamesisch macht das komplett anders. Die Wortstellung bleibt völlig unverändert \u2013 Subjekt, Objekt, Verb, alles bleibt an seinem Platz. Stattdessen hängt man eine Fragepartikel ans Ende des Satzes, ähnlich wie im Japanischen oder Türkischen. Der Satz sieht aus wie eine Aussage, wird aber durch dieses kleine Wörtchen am Ende zur Frage. Du musst also nichts umstellen \u2013 du erkennst die Frage erst ganz am Schluss."
-    }
+    },
+    {
+      "erklärung":"*Niki* ist ein solches Fragepartikel"
+    }  
   ]
 }

@@ -1,0 +1,126 @@
+{
+  "title": "Lektion 4 – Wir treffen uns",
+  "vocab": [
+    {
+      "deutsch": "von (gehörig zu)",
+      "assamese": "ao-r (subjekt + ao-r)",
+      "link to audio":"/audio/l4/aor.m4a"
+    },
+    {
+      "deutsch": "freund/freundin",
+      "assamese": "dost",
+      "link to audio": "/audio/l4/dost.m4a"
+    },
+    {
+      "deutsch": "Wer ist ?",
+      "assamese": "Kun",
+      "link to audio": "/audio/l4/kun.m4a"
+    },
+    {
+      "deutsch": "Wer hat (etwas gemacht)",
+      "assamese": "Kune",
+      "link to audio": "/audio/l4/kune.m4a"
+    },
+    {
+      "deutsch": "ako",
+      "assamese": "wieder",
+      "link to audio": "/audio/l4/ako.m4a"
+    },
+    {
+      "deutsch": "in (ortbezogen)",
+      "assamese": "it",
+      "link to audio": "/audio/l4/it.m4a"
+    },
+    {
+      "deutsch": "bleibe/bleibt/blieben (auch wohne/wohnst/wohnen)",
+      "assamese": "thaku/thaka/thake",
+      "link to audio": "/audio/l4/thaku_thaka_thake.m4a"
+    },
+
+
+    {
+      "deutsch": "treffen/verbinden",
+      "assamese": "log",
+      "link to audio": "/audio/l4/log.m4a"
+    },
+    {
+      "deutsch": " etwas wird zu mir/dir/Ihnen kommen ",
+      "assamese": "pam/paba/pabo",
+      "link to audio": "/audio/l4/pam.m4a"
+    },
+    {
+      "deutsch": "werde halten/fangen",
+      "assamese": "dhorim",
+      "link to audio": "/audio/l4/dhorim.m4a"
+    }
+  ],
+  "examples": [
+    {
+      "assamese": "Nomoskar, Moi Michael ao-r dost hoi",
+      "deutsch": "Hallo, ich bin einem Freund von Michael",
+      "wort für wort": "Hallo, Ich Michael von freund bin",
+      "link": "/audio/l4/L4_Example_1.m4a"
+    },
+    {
+      "assamese": "Aru, Eijon kun?",
+      "deutsch": "Und wer ist der?",
+      "wort für wort": "Und wer ist der",
+      "link": "/audio/l4/L4_Example_2.m4a"
+    },
+
+    
+     {
+      "assamese": "Ami Guwahatit thaku",
+      "deutsch": "Wir wohnen in Guwahati",
+      "wort für wort": "Wir (sind) in Guwahati ortlich gelend",
+      "link": "/audio/l4/L4_Example_4.m4a"
+    },
+    {
+      "assamese": "Moi apunak Guwahatit log dhorim",
+      "deutsch": "Ich werde Ihnen in Guwahati treffen",
+      "wort für wort": "Ich Sie in Guwahati (für einen Treffen) fangen",
+      "link": "/audio/l4/L4_Example_5.m4a"
+    },
+
+    
+
+    {
+      "assamese": "Moi apunak Guwahatit log pam",
+      "deutsch": "Ich werde Ihnen in Guwahati treffen",
+      "wort für wort": "Ich Ihnen in Guwahati treffen zu kommen",
+      "link": "/audio/l4/L4_Example_6.m4a"
+    }
+
+
+    
+
+
+
+    
+
+
+  ],
+  "grammatik": [
+    {
+      "erklärung": "*dhora* deutet daruaf an, dass jemand ein Objekt oder Geschehen/Ereignis zu sich brigen will "
+      
+    },
+
+    {
+        "erklärung": "*chur tu dhora* bedeutet (Fange den Dieb (Dieb ist chur))"
+    },
+
+    {
+        "erklärung": "Aber * Moi apunak log dhorim* wortlich bedeutet: ich werde das treffen mit Ihnen zu mir bringen "
+    },
+
+    {
+      "erklärung": "Das Wort *Pam* bedeuet bekommen. Daher *Moi olop pani pam niki* bedeutet : Ob ich bisschen Wasser bekommen (könnte) "
+    },
+
+    {
+      "erklärung" : "Das wort *pam*  bedeutet manchmal, dass etwas Abstraktes wird zu mich/uns kommen. Zb. *Ami Guwahtit log pam* bedeutet \n : Wir werden uns ein Treffen in Guwahati (zwischen uns) bekommen. Oder genauer gesagt: wir werden uns treffen "
+    }
+    
+  ]
+}
