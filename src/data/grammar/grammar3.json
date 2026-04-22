@@ -1,0 +1,72 @@
+{
+  "title": "Lektion 3 – Personalpronomen",
+  "vocab": [
+    {
+      "deutsch": "ich",
+      "assamese": "moi",
+      "link to audio":"/audio/l2/moi.m4a"
+    },
+    {
+      "deutsch": "du",
+      "assamese": "tumi",
+      "link to audio": "/audio/l3/tumi.m4a"
+    },
+    {
+      "deutsch": "Wir",
+      "assamese": "Ami",
+      "link to audio": "/audio/l1/ami.mp3"
+    },
+    {
+      "deutsch": "Sie",
+      "assamese": "Apuni",
+      "link to audio": "/audio/l1/apuni.mp3"
+    },
+
+    {
+      "deutsch": "Sie( Englisch They)",
+      "assamese": "Tahot (informell)",
+      "link to audio": "/audio/g3/tahot.m4a"
+    },
+    {
+      "deutsch": "Sie( Englisch They)",
+      "assamese": "Täu-lok (formell)",
+      "link to audio": "/audio/g3/taulok.m4a"
+    },
+
+    {
+      "deutsch": "Ihr",
+      "assamese": "Tuma-lok (informell)",
+      "link to audio": "/audio/g3/tumalok.m4a"
+    },
+
+    {
+      "deutsch": "Ihnen",
+      "assamese": "Apuna-lok",
+      "link to audio": "/audio/g3/apunalok.m4a"
+    }
+
+
+
+    
+    
+  ],
+
+  "examples": [
+    {
+      "assamese": "Tahot kot ase?",
+      "deutsch": "Wo sind sie",
+      "wort für wort": "Sie wo sind",
+      "link": "/audio/g3/G3_Example_1.m4a"
+    },
+    {
+      "assamese": "Täu-lok kot asa?",
+      "deutsch": "Wo sind Sie",
+      "wort für wort": "Sie  wo sind?",
+      "link": "/audio/g3/G3_Example_2.m4a"
+    }
+
+
+    
+  ]
+  
+}

@@ -26,7 +26,21 @@
       "deutsch": "Gefällt es Ihnen/dir? (Empfinden Sie es als gut?   )",
       "assamese": "Bhal ___  ne?",
       "answer": "lagise"
+    },
+
+    {
+      "deutsch": "Wo seid ihr (informell)",
+      "assamese": "___ kot  asa?",
+      "answer": "tuma-lok"
+    },
+
+    {
+      "deutsch": "Wo wohnen Sie ( Englisch they)",
+      "assamese": " ___ kot __?",
+      "answer": "täu-lok, thake"
     }
+
+
     
     
   ]
