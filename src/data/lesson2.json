@@ -39,8 +39,14 @@
 
     {
       "deutsch":"ist/seid/bist ?",
-      "assamese":"niki (aber bei fragen )" ,
+      "assamese":"niki (nur bei fragen )" ,
       "link to audio": "/audio/l2/niki.m4a"
+    },
+
+    {
+     "deutsch":"ist/seid/bist ?",
+      "assamese":"ne (nur bei fragen )" ,
+      "link to audio": "/audio/l2/ne.m4a" 
     }
     
   ],
@@ -56,6 +62,12 @@
       "deutsch": "Sind Sie Deutsch?",
       "wort für wort": "Sie Deutsch sind?",
       "link": "/audio/l2/L2_example_2.m4a"
+    },
+    {
+      "assamese": "Apuni German hoi ne?",
+      "deutsch": "Sind Sie Deutsch?",
+      "wort für wort": "Sie Deutsch sind?",
+      "link": "/audio/l2/L2_example_3.m4a"
     }
   ],
   "grammatik": [
@@ -64,7 +76,7 @@
       "erklärung":"Im Deutschen bildest du eine Ja/Nein-Frage ganz einfach durch Inversion: Das Verb rückt an den Satzanfang. Aus \u201eDu kommst morgen\u201c wird \u201eKommst du morgen?\u201c. Die Wortstellung signalisiert die Frage.\nAssamesisch macht das komplett anders. Die Wortstellung bleibt völlig unverändert \u2013 Subjekt, Objekt, Verb, alles bleibt an seinem Platz. Stattdessen hängt man eine Fragepartikel ans Ende des Satzes, ähnlich wie im Japanischen oder Türkischen. Der Satz sieht aus wie eine Aussage, wird aber durch dieses kleine Wörtchen am Ende zur Frage. Du musst also nichts umstellen \u2013 du erkennst die Frage erst ganz am Schluss."
     },
     {
-      "erklärung":"*Niki* ist ein solches Fragepartikel"
+      "erklärung":"*Niki* ist ein solches Fragepartikel. *Ne* ist auch ein solches Fragepartikel.\n Aber es gibt unterschied: Ne wird verwendet, wenn die Person die die Frage stellt, mehr oder weniger sicher ist, dass das Antwort eine Ja ist. *Niki* ist für den fall, wenn man tatsächlich nicht weißt. Es kann bisschen Überrraschung signalisieren"
     }  
   ]
 }

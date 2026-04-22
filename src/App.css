@@ -359,6 +359,88 @@ html, body, #root {
 .mobile-menu-btn:hover { color: var(--text); background: var(--surface-2); }
 .mobile-menu-btn--hidden { opacity: 0; pointer-events: none; }
 
+/* ── Exercise Page ──────────────────────────────────────── */
+.exercise-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.exercise-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color var(--transition);
+}
+.exercise-card:hover { border-color: var(--accent-soft); }
+
+.exercise-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+}
+
+.exercise-index {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.exercise-reveal-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+}
+.exercise-reveal-btn:hover { color: var(--text); border-color: var(--accent); background: var(--accent-soft); }
+.exercise-reveal-btn--active { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+
+.exercise-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exercise-row {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.exercise-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  min-width: 90px;
+  flex-shrink: 0;
+}
+
+.exercise-deutsch { color: var(--text); font-size: 0.92rem; }
+.exercise-assamese { color: var(--accent); font-size: 0.92rem; font-weight: 600; }
+
+.exercise-answer-row { padding-top: 10px; border-top: 1px solid var(--border); }
+.exercise-answer {
+  color: var(--accent-2);
+  font-size: 0.92rem;
+  white-space: pre-line;
+}
+
 /* ── Responsive ─────────────────────────────────────────── */
 @media (max-width: 768px) {
   .app-layout {

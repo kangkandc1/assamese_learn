@@ -2,7 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Select from "react-select";
 import lessons from "../data/lessons";
-import { FiBook, FiMenu, FiX } from "react-icons/fi";
+import exercises from "../data/exercises";
+import grammar from "../data/grammar"
+import { FiBook, FiMenu, FiX, FiEdit3 } from "react-icons/fi";
 
 const selectStyles = {
   control: (base, state) => ({
@@ -85,6 +87,40 @@ export default function Sidebar({ collapsed, onToggle, onNavigate }) {
                 onClick={() => onNavigate && onNavigate()}
               >
                 {lesson.title}
+              </NavLink>
+            ))}
+
+            <p className="sidebar-nav-label" style={{ marginTop: 12 }}>
+              <FiEdit3 size={11} style={{ marginRight: 5, verticalAlign: "middle" }} />
+              Grammatik
+            </p>
+            {grammar.map((g) => (
+              <NavLink
+                key={g.id}
+                to={`/grammar/${g.id}`}
+                className={({ isActive }) =>
+                  `sidebar-link ${isActive ? "sidebar-link--active" : ""}`
+                }
+                onClick={() => onNavigate && onNavigate()}
+              >
+                {g.title}
+              </NavLink>
+            ))}
+
+            <p className="sidebar-nav-label" style={{ marginTop: 12 }}>
+              <FiEdit3 size={11} style={{ marginRight: 5, verticalAlign: "middle" }} />
+              Übungen
+            </p>
+            {exercises.map((exercise) => (
+              <NavLink
+                key={exercise.id}
+                to={`/exercise/${exercise.id}`}
+                className={({ isActive }) =>
+                  `sidebar-link ${isActive ? "sidebar-link--active" : ""}`
+                }
+                onClick={() => onNavigate && onNavigate()}
+              >
+                {exercise.title}
               </NavLink>
             ))}
           </nav>

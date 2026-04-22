@@ -1,0 +1,35 @@
+{
+  "title": "Übung – Lexion 1 bis 4",
+  "vocab": [
+    {
+      "deutsch": "Was ist Ihr Name?",
+      "assamese": "Apunar __ ___",
+      "answer":"nam ki, nam tu ki hoi \n *tu* is ein Hilfswort wie Eben "
+    },
+    {
+      "deutsch": "Sind Sie Inder",
+      "assamese": "Apuni bharotiyo __",
+      "answer": "niki"
+    },
+    {
+      "deutsch": "Wie werden uns wieder treffen (Aufwiedersehen)",
+      "assamese": "Ami ___ log __",
+      "answer": "ako, pam"
+    },
+    {
+      "deutsch": "Mir gehts gut (Mein Zustand ist gut)",
+      "assamese": "Mur __ __",
+      "answer": "khobor, bhal"
+    },
+
+    {
+      "deutsch": "Gefällt es Ihnen/dir? (Empfinden Sie es als gut?   )",
+      "assamese": "Bhal ___  ne?",
+      "answer": "lagise"
+    }
+    
+    
+  ]
+
+}
+  

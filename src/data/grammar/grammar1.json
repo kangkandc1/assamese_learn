@@ -1,0 +1,54 @@
+{
+  "title": "Lektion 1 – Basis Frageworter",
+  "vocab": [
+    {
+      "deutsch": "Was",
+      "assamese": "ki",
+      "link to audio":"/audio/l1/ki.mp3"
+    },
+    {
+      "deutsch": "Wer",
+      "assamese": "Kun",
+      "link to audio": "/audio/g1/kun.m4a"
+    },
+    {
+      "deutsch": "Wann",
+      "assamese": "ketia",
+      "link to audio": "/audio/g1/ketia.m4a"
+    },
+    {
+      "deutsch": "Wo",
+      "assamese": "kot",
+      "link to audio": "/audio/g1/kot.m4a"
+    },
+    {
+      "deutsch": "Warum",
+      "assamese": "kio",
+      "link to audio": "/audio/g1/kio.m4a"
+    },
+    {
+      "deutsch": "Wie ",
+      "assamese": "keneke",
+      "link to audio": "/audio/g1/keneke.m4a"
+    },
+    {
+      "deutsch": "Welche",
+      "assamese": "kuntu",
+      "link to audio": "/audio/g1/kuntu.m4a"
+    },
+
+    {
+      "deutsch":"Wohin ?",
+      "assamese":"koloi" ,
+      "link to audio": "/audio/g1/koloi.m4a"
+    },
+
+    {
+     "deutsch":"Wohin (welche Richtung) ?",
+      "assamese":"kunfale" ,
+      "link to audio": "/audio/g1/kunfale.m4a" 
+    }
+    
+  ]
+  
+}

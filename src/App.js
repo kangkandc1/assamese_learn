@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 import Sidebar from "./components/Sidebar";
 import LessonPage from "./components/LessonPage";
+import ExercisePage from "./components/ExercisePage";
+import GrammarPage from "./components/GrammarPage";
 import Home from "./pages/Home";
 import "./App.css";
 
@@ -31,6 +33,8 @@ function Layout() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/lesson/:id" element={<LessonPage />} />
+          <Route path="/exercise/:id" element={<ExercisePage />} />
+          <Route path="/grammar/:id" element={<GrammarPage />} />
         </Routes>
       </main>
     </div>
