@@ -1,0 +1,49 @@
+{
+  "title": "Lektion 4 – Verb Konjukation",
+  "introduction": [
+    
+    {
+      "erklärung":"In Assamesich werden die Verben auch konjugiert wie in Deutsch. Als Beispeil, lass uns das Verb für schreiben nehmen : *likhi* "
+    },
+    {
+      "erklärung":"In erste Person, endet das Verb mit *su* (fast immer mit u am ende)"
+    },
+    
+    {
+      "erklärung":"In zweite Person, endet das Verb mit *sa*"
+    },
+
+    {
+      "erklärung":"In dritte Person, endet das Verb auch  mit *su*"
+    }
+  ],
+
+  "vocab": [
+    {
+      "deutsch": "ich schreibe",
+      "assamese": "moi likhi-su",
+      "link to audio":"/audio/g4/likhisu.m4a"
+    },
+    {
+      "deutsch": "du schreibst",
+      "assamese": "tumi lilhi-sa",
+      "link to audio": "/audio/g4/likhisa.m4a"
+    },
+    {
+      "deutsch": "Wir schreiben",
+      "assamese": "Ami likhi-su",
+      "link to audio": "/audio/g4/amilikhisu.m4a"
+    }
+    
+
+  ]  
+
+
+
+    
+    
+  
+
+  
+  
+}

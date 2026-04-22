@@ -37,6 +37,23 @@ export default function GrammarPage() {
     <div className="lesson-page">
       <h1 className="lesson-title">{data.title}</h1>
 
+      {/* ── GRAMMATIK ─────────────────────────────────────── */}
+            {data.introduction?.length > 0 && (
+              <section className="lesson-section">
+                <h2 className="section-heading">
+                  <FiInfo /> Einsteig
+                </h2>
+                <div className="grammatik-list">
+                  {data.introduction.map((item, i) => (
+                    <div key={i} className="grammatik-item">
+                      <span className="grammatik-index">{i + 1}</span>
+                      <p>{parseHighlight(item["erklärung"])}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
       {/* ── VOKABULAR ─────────────────────────────────────── */}
       {data.vocab?.length > 0 && (
         <section className="lesson-section">
