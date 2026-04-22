@@ -68,6 +68,39 @@ export default function GrammarPage() {
         </section>
       )}
 
+      {/* ── BEISPIELE ─────────────────────────────────────── */}
+            {data.examples?.length > 0 && (
+              <section className="lesson-section">
+                <h2 className="section-heading">
+                  <FiMessageSquare /> Beispiele
+                </h2>
+                <div className="table-wrapper">
+                  <table className="lesson-table examples-table">
+                    <thead>
+                      <tr>
+                        <th>Assamesisch</th>
+                        <th>Deutsch</th>
+                        <th>Wort für Wort</th>
+                        <th>Audio</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {data.examples.map((item, i) => (
+                        <tr key={i}>
+                          <td className="cell-assamese">{item.assamese}</td>
+                          <td className="cell-deutsch">{item.deutsch}</td>
+                          <td className="cell-wortfuerwort">{item["wort für wort"]}</td>
+                          <td className="cell-audio">
+                            <AudioButton url={item.link} />
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            )}
+
       
 
       

@@ -1,0 +1,57 @@
+{
+  "title": "Lektion 2 – Wer,Wen,Wem",
+  "vocab": [
+    {
+      "deutsch": "Wer",
+      "assamese": "kun",
+      "link to audio":"/audio/l4/kun.m4a"
+    },
+    {
+      "deutsch": "Wer hat",
+      "assamese": "Kune",
+      "link to audio": "/audio/l4/kune.m4a"
+    },
+    {
+      "deutsch": "Wen",
+      "assamese": "kack",
+      "link to audio": "/audio/g2/kack.m4a"
+    },
+    {
+      "deutsch": "Wem",
+      "assamese": "kack",
+      "link to audio": "/audio/g2/kack.m4a"
+    }
+    
+    
+  ],
+
+  "examples": [
+    {
+      "assamese": "President Kun hoi?",
+      "deutsch": "Wer ist der President",
+      "wort für wort": "President wer ist",
+      "link": "/audio/g2/Example_g_1.m4a"
+    },
+    {
+      "assamese": "Kune phone korise?",
+      "deutsch": "Wer hat angerufen",
+      "wort für wort": "Wert telefonieren hat",
+      "link": "/audio/g2/Example_g_2.m4a"
+    },
+
+
+    {
+      "assamese": "Ball tu kack dim?",
+      "deutsch": "Wem soll ich den Ball geben?",
+      "wort für wort": "Ball (dieses) wem ich geben (soll)?",
+      "link": "/audio/g2/Example_g_3.m4a"
+    },
+    {
+      "assamese": "Kack phone korisa?",
+      "deutsch": "Wen rüfst du an?",
+      "wort für wort": "Wen telefonieren machst du?",
+      "link": "/audio/g2/Example_g_4.m4a"
+    }
+  ]
+  
+}
