@@ -3,10 +3,10 @@
   "introduction": [
     
     {
-      "erklärung":"In Assamesich werden die Verben auch konjugiert wie in Deutsch. Als Beispeil, lass uns das Verb für schreiben nehmen : *likhi* "
+      "erklärung":"In Assamesich werden die Verben auch konjugiert wie in Deutsch. Als Beispeil, lass uns das Verb für schreiben nehmen : *likhi* \n Aber es gibt kein richitger Inifinitive. Es gibt eher ein Verb stamm "
     },
     {
-      "erklärung":"In erste Person, endet das Verb mit *su* (fast immer mit u am ende)"
+      "erklärung":"In erste Person und Plural, endet das Verb mit *su* (fast immer mit u am ende)"
     },
     
     {
@@ -14,7 +14,7 @@
     },
 
     {
-      "erklärung":"In dritte Person, endet das Verb auch  mit *su*"
+      "erklärung":"In dritte Person, endet das Verb auch  mit *se*"
     }
   ],
 
@@ -30,10 +30,17 @@
       "link to audio": "/audio/g4/likhisa.m4a"
     },
     {
+      "deutsch": "Er/sie sie(they) schreibt",
+      "assamese": "Si/Tai likhi-se",
+      "link to audio": "/audio/g4/likhise.m4a"
+    },
+    {
       "deutsch": "Wir schreiben",
-      "assamese": "Ami likhi-su",
+      "assamese": "Ami  likhi-su",
       "link to audio": "/audio/g4/amilikhisu.m4a"
     }
+
+
     
 
   ]  
