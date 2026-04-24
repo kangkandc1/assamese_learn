@@ -1,20 +1,73 @@
 {
   "title": "Lektion 3 – Personalpronomen",
+  "introduction": [
+    
+    {
+      "erklärung":"In Assamesich werden die Pronomen auch wie in Deutsch konjugiert "
+    },
+    {
+      "erklärung":"Nomativ: Endet mit *k* Ton "
+    },
+    
+    {
+      "erklärung":"Dativ endet meist mit einem *ar* Ton"
+    },
+
+    {
+      "erklärung":"In dritte Person, endet das Verb auch  mit *se*"
+    }
+  ],
   "vocab": [
     {
       "deutsch": "ich",
       "assamese": "moi",
       "link to audio":"/audio/l2/moi.m4a"
     },
+
     {
+      "deutsch": "mich",
+      "assamese": "muk",
+      "link to audio":"/audio/g3/muk.m4a"
+    },
+
+    {
+      "deutsch": "mir",
+      "assamese": "mur",
+      "link to audio":"/audio/g3/mur2.m4a"
+    },
+
+   {
       "deutsch": "du",
       "assamese": "tumi",
       "link to audio": "/audio/l3/tumi.m4a"
+    },
+
+    {
+      "deutsch": "dich",
+      "assamese": "tumak",
+      "link to audio":"/audio/g3/tumak.m4a"
+    },
+
+    {
+      "deutsch": "dir",
+      "assamese": "tumar",
+      "link to audio":"/audio/g3/tumar2.m4a"
     },
     {
       "deutsch": "Wir",
       "assamese": "Ami",
       "link to audio": "/audio/l1/ami.mp3"
+    },
+
+    {
+      "deutsch": "Uns (Akkusativ)",
+      "assamese": "Amak",
+      "link to audio":"/audio/g3/amak.m4a"
+    },
+    {
+      "deutsch": "Uns (Dativ)",
+      "assamese": "amar",
+      "link to audio":"/audio/g3/amar.m4a"
     },
     {
       "deutsch": "Sie",
@@ -23,14 +76,75 @@
     },
 
     {
-      "deutsch": "Sie( Englisch They)",
+      "deutsch": "Sie (akkusativ)",
+      "assamese": "Apunak",
+      "link to audio":"/audio/g3/apunak.m4a"
+    },
+
+    {
+      "deutsch": "Ihnen(Dativ)",
+      "assamese": "Apunar",
+      "link to audio":"/audio/g3/apunar2.m4a"
+    },
+
+    {
+      "deutsch": "er",
+      "assamese": "sh-i",
+      "link to audio":"/audio/g3/shee.m4a"
+    },
+
+    {
+      "deutsch": "ihn",
+      "assamese": "tak",
+      "link to audio":"/audio/g3/tak.m4a"
+    },
+
+    {
+      "deutsch": "ihm",
+      "assamese": "tak",
+      "link to audio":"/audio/g3/tak.m4a"
+    },
+
+    {
+      "deutsch": "sie (English She)",
+      "assamese": "tai",
+      "link to audio":"/audio/g3/tai.m4a"
+    },
+
+    {
+      "deutsch": "Sie (akkusativ)",
+      "assamese": "tai-k",
+      "link to audio":"/audio/g3/taik.m4a"
+    },
+
+    {
+      "deutsch": "Ihr (Dativ)",
+      "assamese": "tai-k",
+      "link to audio":"/audio/g3/taik.m4a"
+    },
+
+    
+    {
+      "deutsch": "sie( Englisch They)",
       "assamese": "Tahot (informell)",
       "link to audio": "/audio/g3/tahot.m4a"
     },
+
     {
-      "deutsch": "Sie( Englisch They)",
-      "assamese": "Täu-lok (formell)",
-      "link to audio": "/audio/g3/taulok.m4a"
+      "deutsch": "sie haben",
+      "assamese": "Ta-ha-te",
+      "link to audio": "/audio/g3/tahate.m4a"
+    },
+    {
+      "deutsch": "sie (akkusativ)",
+      "assamese": "Ta-ho-tok (informell)",
+      "link to audio": "/audio/g3/tahatok.m4a"
+    },
+
+    {
+      "deutsch": "Ihnen(dativ) ",
+      "assamese": "Ta-ha-tor (formell)",
+      "link to audio": "/audio/g3/tahator.m4a"
     },
 
     {
@@ -40,11 +154,26 @@
     },
 
     {
-      "deutsch": "Ihnen",
-      "assamese": "Apuna-lok",
-      "link to audio": "/audio/g3/apunalok.m4a"
+      "deutsch": "Ihr hat",
+      "assamese": "Tuma-lok-ke (informell)",
+      "link to audio": "/audio/g3/tumaloke.m4a"
+    },
+
+    {
+      "deutsch": "ihr (akkusativ)",
+      "assamese": "Tuma-lok-ok (informell)",
+      "link to audio": "/audio/g3/tumalokok.m4a"
+    },
+
+    {
+      "deutsch": "Euch",
+      "assamese": "Tuma-lok-ok (informell)",
+      "link to audio": "/audio/g3/tumalokok.m4a"
     }
 
+
+
+    
 
 
     
@@ -63,7 +192,16 @@
       "deutsch": "Wo sind Sie",
       "wort für wort": "Sie  wo sind?",
       "link": "/audio/g3/G3_Example_2.m4a"
+    },
+
+    {
+      "assamese": "Tu-mar thanda lagise niki?",
+      "deutsch": "Ist dir kalt",
+      "wort für wort": "dir kalt empfinden ist?",
+      "link": "/audio/g3/G3_Example_3.m4a"
     }
+
+
 
 
     
