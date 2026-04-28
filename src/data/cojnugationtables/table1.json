@@ -1,14 +1,127 @@
 {
   "title": "Lektion1- Konjukation von Verben (A1)",
+  "introduction": [
+    
+    {
+      "erklärung":"In Assamesich werden die Verben auch konjugiert wie in Deutsch. Aber es gibt kein richitger Inifinitive. Es gibt eher ein Verb stamm. Eine große mehrheit von Verben könnten nach den folgenden Regeln konjugiert werden "
+    },
+    {
+      "erklärung":"In erste Person und Plural, endet das Verb mit *su* (fast immer mit u am ende)"
+    },
+    
+    {
+      "erklärung":"In zweite Person, endet das Verb mit *sa*"
+    },
+
+    {
+      "erklärung":"In dritte Person, endet das Verb auch  mit *se*"
+    },
+
+    {
+      "erklärung":"Wenn es mehere Person betrifft, endet das Verb auch  mit *se*"
+    }
+
+
+  ],
   "vocab": [
     {
+      "deutsch":"essen",
       "stamm": "khai",
-      "first": "khai-su",
-      "second": "khai-sa",
-      "third": "khai-se",
-      "plural": "khai-su",
-      "link to audio":"/audio/l3/eitu.m4a"
+      "first": "moi khai-su",
+      "second": "tumi khai-sa",
+      "third": "apuni khai-se",
+      "plural": "apuna-loke khaise",
+      "link to audio":"/audio/l3/essen.m4a"
+    },
+
+    {
+      "deutsch":"gehen",
+      "stamm": "goi",
+      "first": " moi goi-su",
+      "second": "tumi goi-sa",
+      "third": "apuni goi-se",
+      "plural": "apunaloke goise",
+      "link to audio":"/audio/l3/gehen.m4a"
+    },
+    {
+      "deutsch":"essen",
+      "stamm": "dekhi",
+      "first": "moi dekhi-su",
+      "second": "tumi dekhi-sa",
+      "third": "apuni dekhi-se",
+      "plural": "apanloke dekhi-se",
+      "link to audio":"/audio/l3/essen.m4a"
+    },
+    {
+      "deutsch":"machen",
+      "stamm": "kori",
+      "first": " moi koris-su",
+      "second": "tumi kori-sa",
+      "third": "apuni kori-se",
+      "plural": "apunaloke kori-se",
+      "link to audio":"/audio/l3/essen.m4a"
+    },
+
+    {
+      "deutsch":"müssen",
+      "stamm": "koribo lagibo (machen muss)",
+      "first": "moi koribo lagibo",
+      "second": "tumi koribo lagibo",
+      "third": "apuni koribo lagibo",
+      "plural": "apunaloke koribo lagibo",
+      "link to audio":"/audio/l3/essen.m4a"
+    },
+
+    {
+      "deutsch":"sagen",
+      "stamm": "koi",
+      "first": "koi-su",
+      "second": "koi-sa",
+      "third": "koi-se",
+      "plural": "koi-se",
+      "link to audio":"/audio/l3/essen.m4a"
+    },
+    {
+      "deutsch":"kommen",
+      "stamm": "ahi",
+      "first": "ahi-su",
+      "second": "ahi-sa",
+      "third": "ahi-se",
+      "plural": "ahi-se",
+      "link to audio":"/audio/l3/essen.m4a"
+    },
+
+    {
+      "deutsch":"gucken/anschauen",
+      "stamm": "sai",
+      "first": "sai-su",
+      "second": "sai-sa",
+      "third": "sai-se",
+      "plural": "sai-se",
+      "link to audio":"/audio/l3/essen.m4a"
+    },
+
+    {
+      "deutsch":"bekommen",
+      "stamm": "pai",
+      "first": "pai-su",
+      "second": "pai-sa",
+      "third": "pai-se",
+      "plural": "pai-se",
+      "link to audio":"/audio/l3/essen.m4a"
+    },
+
+    {
+      "deutsch":"schlafen",
+      "stamm": "sh-üi",
+      "first": "shüi-su",
+      "second": "shüi-sa",
+      "third": "shüi-se",
+      "plural": "shüi-se",
+      "link to audio":"/audio/l3/essen.m4a"
     }
+
+
     
 
     

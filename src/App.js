@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 import LessonPage from "./components/LessonPage";
 import ExercisePage from "./components/ExercisePage";
 import GrammarPage from "./components/GrammarPage";
+import ConjugationTable from "./components/ConjugationTable";
 import Home from "./pages/Home";
 import "./App.css";
 
@@ -35,6 +36,8 @@ function Layout() {
           <Route path="/lesson/:id" element={<LessonPage />} />
           <Route path="/exercise/:id" element={<ExercisePage />} />
           <Route path="/grammar/:id" element={<GrammarPage />} />
+          <Route path="/conjugation/:id" element={<ConjugationTable />} />
+          
         </Routes>
       </main>
     </div>

@@ -4,7 +4,8 @@ import Select from "react-select";
 import lessons from "../data/lessons";
 import exercises from "../data/exercises";
 import grammar from "../data/grammar"
-import { FiBook, FiMenu, FiX, FiEdit3 } from "react-icons/fi";
+import conjugationtables from "../data/conjugationtables";
+import { FiBook, FiMenu, FiX, FiEdit3, FiGrid } from "react-icons/fi";
 
 const selectStyles = {
   control: (base, state) => ({
@@ -104,6 +105,23 @@ export default function Sidebar({ collapsed, onToggle, onNavigate }) {
                 onClick={() => onNavigate && onNavigate()}
               >
                 {g.title}
+              </NavLink>
+            ))}
+
+            <p className="sidebar-nav-label" style={{ marginTop: 12 }}>
+              <FiGrid size={11} style={{ marginRight: 5, verticalAlign: "middle" }} />
+              Konjugation
+            </p>
+            {conjugationtables.map((t) => (
+              <NavLink
+                key={t.id}
+                to={`/conjugation/${t.id}`}
+                className={({ isActive }) =>
+                  `sidebar-link ${isActive ? "sidebar-link--active" : ""}`
+                }
+                onClick={() => onNavigate && onNavigate()}
+              >
+                {t.title}
               </NavLink>
             ))}
 
