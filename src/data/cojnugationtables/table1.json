@@ -31,7 +31,7 @@
       "second": "tumi khai-sa",
       "third": "apuni khai-se",
       "plural": "apuna-loke khaise",
-      "link to audio":"/audio/l3/essen.m4a"
+      "link to audio":"/audio/c1/essen.m4a"
     },
 
     {
@@ -41,16 +41,16 @@
       "second": "tumi goi-sa",
       "third": "apuni goi-se",
       "plural": "apunaloke goise",
-      "link to audio":"/audio/l3/gehen.m4a"
+      "link to audio":"/audio/c1/gehen.m4a"
     },
     {
-      "deutsch":"essen",
+      "deutsch":"sehen",
       "stamm": "dekhi",
       "first": "moi dekhi-su",
       "second": "tumi dekhi-sa",
       "third": "apuni dekhi-se",
       "plural": "apanloke dekhi-se",
-      "link to audio":"/audio/l3/essen.m4a"
+      "link to audio":"/audio/c1/sehen.m4a"
     },
     {
       "deutsch":"machen",
@@ -59,7 +59,7 @@
       "second": "tumi kori-sa",
       "third": "apuni kori-se",
       "plural": "apunaloke kori-se",
-      "link to audio":"/audio/l3/essen.m4a"
+      "link to audio":"/audio/c1/machen.m4a"
     },
 
     {
@@ -69,7 +69,7 @@
       "second": "tumi koribo lagibo",
       "third": "apuni koribo lagibo",
       "plural": "apunaloke koribo lagibo",
-      "link to audio":"/audio/l3/essen.m4a"
+      "link to audio":"/audio/c1/mussen.m4a"
     },
 
     {
@@ -79,7 +79,7 @@
       "second": "koi-sa",
       "third": "koi-se",
       "plural": "koi-se",
-      "link to audio":"/audio/l3/essen.m4a"
+      "link to audio":"/audio/c1/sagen.m4a"
     },
     {
       "deutsch":"kommen",
@@ -88,7 +88,7 @@
       "second": "ahi-sa",
       "third": "ahi-se",
       "plural": "ahi-se",
-      "link to audio":"/audio/l3/essen.m4a"
+      "link to audio":"/audio/c1/kommen.m4a"
     },
 
     {
@@ -98,7 +98,7 @@
       "second": "sai-sa",
       "third": "sai-se",
       "plural": "sai-se",
-      "link to audio":"/audio/l3/essen.m4a"
+      "link to audio":"/audio/c1/guckem.m4a"
     },
 
     {
@@ -108,7 +108,7 @@
       "second": "pai-sa",
       "third": "pai-se",
       "plural": "pai-se",
-      "link to audio":"/audio/l3/essen.m4a"
+      "link to audio":"/audio/c1/bekommen.m4a"
     },
 
     {
@@ -118,7 +118,7 @@
       "second": "shüi-sa",
       "third": "shüi-se",
       "plural": "shüi-se",
-      "link to audio":"/audio/l3/essen.m4a"
+      "link to audio":"/audio/c1/schlafen.m4a"
     }
 
 
