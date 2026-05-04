@@ -44,6 +44,15 @@
       "link to audio":"/audio/c1/gehen.m4a"
     },
     {
+      "deutsch":"hingehen",
+      "stamm": "jam",
+      "first": " moi jam",
+      "second": "tumi jaba",
+      "third": "apuni jabo",
+      "plural": "apunalokejabo",
+      "link to audio":"/audio/c1/hinehen.m4a"
+    },
+    {
       "deutsch":"sehen",
       "stamm": "dekhi",
       "first": "moi dekhi-su",

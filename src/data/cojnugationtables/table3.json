@@ -1,0 +1,148 @@
+
+
+{
+  "title": "Lektion 3- Volitional Mood",
+  "introduction": [
+    
+    {
+        "erklärung": "Der Satz : Ich werde schreiben kommuniziert die Absicht zu Schreiben. Diese Tat wird in der Zukunft passieren. "
+    },
+    {
+      "erklärung":"In Assamesich gibt das verb werden gibt es nicht richtig."
+    },
+    {
+      "erklärung":"Sondern das Verb selbst wird konjugiert, um zu kommuniziren, das jemand die Absicht hat, etwas in der Zukunft zu tun  "
+    },
+
+    {
+      "erklärung":"erstePerson - endet das Verb oft mit *m*"
+    },
+    {
+      "erklärung":"zweite Person - endet das Verb oft mit *ba*"
+    },
+    {
+      "erklärung":"dritte Person - endet das Verb oft mit *bo*"
+    }
+
+
+
+    
+    
+    
+
+
+  ],
+  "vocab": [
+    
+    {
+      "deutsch":"essen",
+      "stamm": "khai",
+      "first": "moi kha-m",
+      "second": "tumi kha-ba",
+      "third": "apuni kha-bo",
+      "plural": "apuna-loke khaise",
+      "link to audio":"/audio/c3/essen.m4a"
+    },
+
+    {
+      "deutsch":"hingehen",
+      "stamm": "ja",
+      "first": " ja-m",
+      "second": "tumi ja-ba",
+      "third": "apuni ja-bo",
+      "plural": "apunaloke ja-bo",
+      "link to audio":"/audio/c3/hinehen.m4a"
+    },
+    {
+      "deutsch":"sehen",
+      "stamm": "dekhi",
+      "first": "moi dekhi-m",
+      "second": "tumi dekhi-ba",
+      "third": "apuni dekhi-bo",
+      "plural": "apanloke dekhi-bo",
+      "link to audio":"/audio/c3/sehen.m4a"
+    },
+    {
+      "deutsch":"machen",
+      "stamm": "kori",
+      "first": " moi kori-m",
+      "second": "tumi kori-ba",
+      "third": "apuni kori-bo",
+      "plural": "apunaloke kori-bo",
+      "link to audio":"/audio/c3/machen.m4a"
+    },
+
+    
+
+    {
+      "deutsch":"sagen",
+      "stamm": "koi",
+      "first": "ko-m",
+      "second": "ko-ba",
+      "third": "ko-bo",
+      "plural": "ko-bo",
+      "link to audio":"/audio/c3/sagen.m4a"
+    },
+    {
+      "deutsch":"kommen",
+      "stamm": "ahi",
+      "first": "ahi-m",
+      "second": "ahi-ba",
+      "third": "ahi-bo",
+      "plural": "ahi-bo",
+      "link to audio":"/audio/c3/kommen.m4a"
+    },
+
+    {
+      "deutsch":"gucken/anschauen",
+      "stamm": "sai",
+      "first": "sa-m",
+      "second": "sa-ba",
+      "third": "sa-bo",
+      "plural": "sa-bo",
+      "link to audio":"/audio/c3/guckem.m4a"
+    },
+
+    {
+      "deutsch":"bekommen",
+      "stamm": "pai",
+      "first": "pa-m",
+      "second": "pa-ba",
+      "third": "pai-bo",
+      "plural": "pai-bo",
+      "link to audio":"/audio/c3/bekommen.m4a"
+    },
+
+    {
+      "deutsch":"schlafen",
+      "stamm": "sh-üi",
+      "first": "shü-m",
+      "second": "shü-ba",
+      "third": "shü-bo",
+      "plural": "shü-bo",
+      "link to audio":"/audio/c3/schlafen.m4a"
+    }
+    
+],
+
+"examples": [
+    {
+      "assamese": "Moi etia porhi-m",
+      "deutsch": "ich werde jetzt lernen",
+      "wort für wort": "ich jetzt (werde) lernen ",
+      "link": "/audio/c3/C3_Example_1.m4a"
+    },
+    {
+      "assamese": "Tumi aji ja-ba niki?",
+      "deutsch": "Wirst du heute (da) hingehen ?",
+      "wort für wort": "Du heute hingehen wirst ?",
+      "link": "/audio/c3/C3_Example_2.m4a"
+    }
+
+    
+
+    
+    
+]
+  
+}

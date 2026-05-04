@@ -1,0 +1,115 @@
+{
+  "title": "Lektion2- Modal Verben (A1)",
+  "introduction": [
+    
+    {
+        "erklärung": "Leider gibt es die Kategorie Modal Verben in Assamescih nicht richtig"
+    },
+    {
+      "erklärung":"Daher ist die Konjugation von Modal verben nicht einheitlich "
+    },
+    {
+      "erklärung":"Dürfen wird anders konjugiert, wenn es als eine Fragewort verwendet wird "
+    },
+
+    {
+      "erklärung":"Müssen,Dürfe und Sollen wird oft so konjugiert: Verb stamm+bo+ konjugiertes Modalverb"
+    }
+
+    
+    
+    
+
+
+  ],
+  "vocab": [
+    
+    {
+      "deutsch":"müssen",
+      "stamm": "verb lagibo (machen muss)",
+      "first": "lagibo",
+      "second": "lagibo",
+      "third": "lagibo",
+      "plural": "lagibo",
+      "link to audio":"/audio/c1/mussen.m4a"
+    },
+
+     {
+      "deutsch":"können",
+      "stamm": "verb parim",
+      "first": "moi parim",
+      "second": "tumi parib-a",
+      "third": "apuni parib-o",
+      "plural": "apunaloke parib-o",
+      "link to audio":"/audio/c2/konnen.m4a"
+    },
+
+    {
+      "deutsch":"dürfen ?",
+      "stamm": "par",
+      "first": "verb+ par-u (? -ne)",
+      "second": "verb par-a (?-ne)",
+      "third": "apuni parib-o (? -ne)",
+      "plural": "apunaloke parib-o (? ne)",
+      "link to audio":"/audio/c2/durfen.m4a"
+    },
+
+     {
+      "deutsch":"soll (eher eine Empfehlung)",
+      "stamm": "verb+lagisil",
+      "first": "lagisil",
+      "second": "lagisil",
+      "third": "lagisil",
+      "plural": "apunaloke koribo lagisil",
+      "link to audio":"/audio/c1/sollen.m4a"
+    },
+
+    {
+      "deutsch":"etwas brauchen",
+      "stamm": "lage",
+      "first": "Substantiv + lage",
+      "second": "Substantiv + lage",
+      "third": "Substantiv + lage",
+      "plural": "apunaloke koribo lagisil",
+      "link to audio":"/audio/c1/brauchen.m4a"
+    }
+
+],
+
+"examples": [
+    {
+      "assamese": "Moi jabo lagibo",
+      "deutsch": "ich muss gehen",
+      "wort für wort": "ich (irgendowohin) gehen muss",
+      "link": "/audio/c2/C2_Example_1.m4a"
+    },
+    {
+      "assamese": "Moi jabo lagibo ne?",
+      "deutsch": "Müss ich gehen?",
+      "wort für wort": "ich gehen muss ?",
+      "link": "/audio/c2/C2_Example_2.m4a"
+    },
+
+    {
+      "assamese": "Moi parim",
+      "deutsch": "Ich kann es",
+      "wort für wort": "ich kann",
+      "link": "/audio/c2/C2_Example_3.m4a"
+    },
+
+    {
+      "assamese": "Tumi pariba",
+      "deutsch": "Du kannst das",
+      "wort für wort": "du kannst (das)",
+      "link": "/audio/c2/C2_Example_4.m4a"
+    },
+    {
+      "assamese": "Apuni pari-bo",
+      "deutsch": "Sie kann es",
+      "wort für wort": "Sie können (das)",
+      "link": "/audio/c2/C2_Example_5.m4a"
+    }
+    
+]
+  
+}
