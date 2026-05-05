@@ -1,0 +1,96 @@
+{
+  "title": "Lektion 5 – Dativ",
+  "introduction": [
+    
+    {
+      "erklärung":"Das Dativ wird oft in Deutsch verwendet um der Stand von jemand zu kommuniziren (Dativus experiencis )  "
+    },
+
+    {
+      "erklärung":" Assamesich verwendet eine sehr ähnliche Struktur "
+    },
+
+    {
+      "erklärung":" Das Personal Pronomen endet auch mit -r"
+    }
+
+
+
+
+    
+  ],
+
+  "vocab": [
+    {
+      "deutsch": "mir",
+      "assamese": "mur",
+      "link to audio":"/audio/g5/mir.m4a"
+    },
+    {
+      "deutsch": "dir",
+      "assamese": "tumar",
+      "link to audio": "/audio/g5/dir.m4a"
+    },
+    {
+      "deutsch": "ihm/ihr",
+      "assamese": "Tar/Tair",
+      "link to audio": "/audio/g5/ihr.m4a"
+    },
+    {
+      "deutsch": "euch",
+      "assamese": "tumalokor",
+      "link to audio": "/audio/g5/euch.m4a"
+    },
+
+    {
+      "deutsch": "Ihnen",
+      "assamese": "apunar",
+      "link to audio": "/audio/g5/Ihnen.m4a"
+    },
+
+    {
+      "deutsch": "ihnen (Plural)",
+      "assamese": "apunalokor",
+      "link to audio": "/audio/g5/ihnen.m4a"
+    }
+
+],
+
+"examples": [
+    {
+      "assamese": "Mur khobor bhal",
+      "deutsch": "Mir gehts gut",
+      "wort für wort": "Mir zustand ist gut",
+      "link": "/audio/g5/Example_g_1.m4a"
+    },
+    {
+      "assamese": "Tumar khobor bhal ne ?",
+      "deutsch": "Gehts dir gut?",
+      "wort für wort": "Dir zustand gut ist?",
+      "link": "/audio/g5/Example_g_2.m4a"
+    },
+
+
+    {
+      "assamese": "Tair thanda lagise",
+      "deutsch": "ihr ist kalt",
+      "wort für wort": "ihr kalt empfinden",
+      "link": "/audio/g5/Example_g_3.m4a"
+    },
+    {
+      "assamese": "Apunar bhuk lagise niki?",
+      "deutsch": "Haben Sie Hunger?",
+      "wort für wort": "Ihnen Hunger empfinden?",
+      "link": "/audio/g5/Example_g_4.m4a"
+    }
+  ]
+
+
+
+    
+    
+  
+
+  
+  
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Übung 2 – Lexion 1 bis 4",
+  "vocab": [
+    {
+      "deutsch": "Wie gehts dir?",
+      "assamese": "__ khobor bhal __",
+      "answer":"tumar, ne"
+    },
+    {
+      "deutsch": "Ist dir kalt",
+      "assamese": "___ thanda __ niki",
+      "answer": "tumar, lagise"
+    },
+    {
+      "deutsch": "ich werde jetzt schlafen",
+      "assamese": "Moi etia __",
+      "answer": "khüm"
+    },
+    {
+      "deutsch": "Er ist nach Guwahati gegangen",
+      "assamese": "shi Guwahatiloi ___",
+      "answer": "goise"
+    }
+
+    ]
+
+}
+  
