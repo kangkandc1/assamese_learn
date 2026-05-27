@@ -1,54 +1,23 @@
-import React from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Select from "react-select";
 import lessons from "../data/lessons";
 import exercises from "../data/exercises";
-import grammar from "../data/grammar"
+import grammar from "../data/grammar";
 import conjugationtables from "../data/conjugationtables";
-import { FiBook, FiMenu, FiX, FiEdit3, FiGrid } from "react-icons/fi";
+import { FiBook, FiMenu, FiX, FiEdit3, FiGrid, FiChevronDown, FiChevronRight } from "react-icons/fi";
 
-const selectStyles = {
-  control: (base, state) => ({
-    ...base,
-    background: "transparent",
-    borderColor: state.isFocused ? "var(--accent)" : "var(--border)",
-    boxShadow: state.isFocused ? `0 0 0 2px var(--accent-soft)` : "none",
-    borderRadius: "8px",
-    fontSize: "0.82rem",
-    cursor: "pointer",
-  }),
-  menu: (base) => ({
-    ...base,
-    background: "var(--surface)",
-    border: "1px solid var(--border)",
-    borderRadius: "10px",
-    overflow: "hidden",
-    zIndex: 100,
-  }),
-  option: (base, state) => ({
-    ...base,
-    background: state.isSelected
-      ? "var(--accent)"
-      : state.isFocused
-      ? "var(--hover)"
-      : "transparent",
-    color: state.isSelected ? "#fff" : "var(--text)",
-    fontSize: "0.82rem",
-    cursor: "pointer",
-    padding: "8px 12px",
-  }),
-  singleValue: (base) => ({ ...base, color: "var(--text-muted)" }),
-  placeholder: (base) => ({ ...base, color: "var(--text-muted)" }),
-  dropdownIndicator: (base) => ({ ...base, color: "var(--text-muted)" }),
-  indicatorSeparator: () => ({ display: "none" }),
-};
+const sections = [
+  { key: "lektionen", label: "Lektionen", icon: <FiBook size={14} />, items: lessons, basePath: "lesson" },
+  { key: "grammatik", label: "Grammatik", icon: <FiEdit3 size={14} />, items: grammar, basePath: "grammar" },
+  { key: "konjugation", label: "Konjugation", icon: <FiGrid size={14} />, items: conjugationtables, basePath: "conjugation" },
+  { key: "uebungen", label: "Übungen", icon: <FiEdit3 size={14} />, items: exercises, basePath: "exercise" },
+];
 
 export default function Sidebar({ collapsed, onToggle, onNavigate }) {
-  const options = lessons.map((l) => ({ value: l.id, label: l.title }));
+  const [openSections, setOpenSections] = useState({ lektionen: true });
 
-  const handleSelect = (opt) => {
-    if (opt) onNavigate(`/lesson/${opt.value}`);
-  };
+  const toggle = (key) =>
+    setOpenSections((prev) => ({ ...prev, [key]: !prev[key] }));
 
   return (
     <aside className={`sidebar ${collapsed ? "sidebar--collapsed" : ""}`}>
@@ -65,84 +34,39 @@ export default function Sidebar({ collapsed, onToggle, onNavigate }) {
       </div>
 
       {!collapsed && (
-        <>
-          <div className="sidebar-search">
-            <Select
-              options={options}
-              styles={selectStyles}
-              placeholder="Lektion suchen…"
-              onChange={handleSelect}
-              isClearable
-            />
-          </div>
-
-          <nav className="sidebar-nav">
-            <p className="sidebar-nav-label">Lektionen</p>
-            {lessons.map((lesson) => (
-              <NavLink
-                key={lesson.id}
-                to={`/lesson/${lesson.id}`}
-                className={({ isActive }) =>
-                  `sidebar-link ${isActive ? "sidebar-link--active" : ""}`
-                }
-                onClick={() => onNavigate && onNavigate()}
+        <nav className="sidebar-nav">
+          {sections.map(({ key, label, icon, items, basePath }) => (
+            <div key={key} className="sidebar-section">
+              <button
+                className="sidebar-section-toggle"
+                onClick={() => toggle(key)}
               >
-                {lesson.title}
-              </NavLink>
-            ))}
+                <span className="sidebar-section-toggle-left">
+                  {icon}
+                  <span>{label}</span>
+                </span>
+                {openSections[key] ? <FiChevronDown size={13} /> : <FiChevronRight size={13} />}
+              </button>
 
-            <p className="sidebar-nav-label" style={{ marginTop: 12 }}>
-              <FiEdit3 size={11} style={{ marginRight: 5, verticalAlign: "middle" }} />
-              Grammatik
-            </p>
-            {grammar.map((g) => (
-              <NavLink
-                key={g.id}
-                to={`/grammar/${g.id}`}
-                className={({ isActive }) =>
-                  `sidebar-link ${isActive ? "sidebar-link--active" : ""}`
-                }
-                onClick={() => onNavigate && onNavigate()}
-              >
-                {g.title}
-              </NavLink>
-            ))}
-
-            <p className="sidebar-nav-label" style={{ marginTop: 12 }}>
-              <FiGrid size={11} style={{ marginRight: 5, verticalAlign: "middle" }} />
-              Konjugation
-            </p>
-            {conjugationtables.map((t) => (
-              <NavLink
-                key={t.id}
-                to={`/conjugation/${t.id}`}
-                className={({ isActive }) =>
-                  `sidebar-link ${isActive ? "sidebar-link--active" : ""}`
-                }
-                onClick={() => onNavigate && onNavigate()}
-              >
-                {t.title}
-              </NavLink>
-            ))}
-
-            <p className="sidebar-nav-label" style={{ marginTop: 12 }}>
-              <FiEdit3 size={11} style={{ marginRight: 5, verticalAlign: "middle" }} />
-              Übungen
-            </p>
-            {exercises.map((exercise) => (
-              <NavLink
-                key={exercise.id}
-                to={`/exercise/${exercise.id}`}
-                className={({ isActive }) =>
-                  `sidebar-link ${isActive ? "sidebar-link--active" : ""}`
-                }
-                onClick={() => onNavigate && onNavigate()}
-              >
-                {exercise.title}
-              </NavLink>
-            ))}
-          </nav>
-        </>
+              {openSections[key] && (
+                <div className="sidebar-section-items">
+                  {items.map((item) => (
+                    <NavLink
+                      key={item.id}
+                      to={`/${basePath}/${item.id}`}
+                      className={({ isActive }) =>
+                        `sidebar-link ${isActive ? "sidebar-link--active" : ""}`
+                      }
+                      onClick={() => onNavigate && onNavigate()}
+                    >
+                      {item.title}
+                    </NavLink>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </nav>
       )}
     </aside>
   );

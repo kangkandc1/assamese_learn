@@ -59,6 +59,7 @@ html, body, #root {
   position: sticky;
   top: 0;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   transition: width var(--transition);
   z-index: 10;
@@ -104,6 +105,7 @@ html, body, #root {
 
 .sidebar-nav {
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
   padding: 8px 8px 20px;
   display: flex;
@@ -111,26 +113,55 @@ html, body, #root {
   gap: 2px;
 }
 
-.sidebar-nav-label {
-  font-size: 0.7rem;
+.sidebar-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--text-muted);
-  padding: 8px 10px 4px;
+  letter-spacing: 0.1em;
+  transition: background var(--transition), color var(--transition);
+  margin-top: 4px;
+}
+.sidebar-section-toggle:hover { background: var(--surface-2); color: var(--text); }
+
+.sidebar-section-toggle-left {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.sidebar-section-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding-left: 8px;
+  margin-bottom: 4px;
 }
 
 .sidebar-link {
   display: block;
-  padding: 9px 12px;
+  padding: 7px 12px;
   border-radius: var(--radius);
   color: var(--text-muted);
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
   transition: background var(--transition), color var(--transition);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  word-break: break-word;
 }
 .sidebar-link:hover { background: var(--surface-2); color: var(--text); }
 .sidebar-link--active {
@@ -460,10 +491,22 @@ html, body, #root {
 /* ── Responsive ─────────────────────────────────────────── */
 @media (max-width: 768px) {
   .app-layout {
-    grid-template-columns: 0 1fr;
+    grid-template-columns: 1fr;
   }
   .app-layout:not(.app-layout--collapsed) {
-    grid-template-columns: var(--sidebar-width) 1fr;
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: var(--sidebar-width);
+    transform: translateX(-100%);
+    transition: transform var(--transition), width var(--transition);
+    z-index: 100;
+  }
+  .app-layout:not(.app-layout--collapsed) .sidebar {
+    transform: translateX(0);
   }
   .main-content {
     padding: 24px 20px;
