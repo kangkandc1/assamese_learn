@@ -34,6 +34,16 @@
       "link to audio":"/audio/c1/mussen.m4a"
     },
 
+    {
+      "deutsch":"sein",
+      "stamm": "hoi",
+      "first": "hoi",
+      "second": "hoi",
+      "third": "hoi",
+      "plural": "hoi",
+      "link to audio":"/audio/c1/hoi.m4a"
+    },
+
      {
       "deutsch":"können",
       "stamm": "verb parim",

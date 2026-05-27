@@ -1,7 +1,7 @@
 {
   "name": "assamese-app",
   "version": "0.1.0",
-  "homepage": "/assamese",
+  "homepage": "https://kangkandc1.github.io/assamese_learn",
   "private": true,
   "dependencies": {
     "react": "^19.2.5",
@@ -15,6 +15,8 @@
     "start": "react-scripts start",
     "start:record": "REACT_APP_AUDIO_RECORDING=true concurrently \"react-scripts start\" \"node server/record.js\"",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,6 +38,7 @@
   "devDependencies": {
     "concurrently": "^9.2.1",
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "gh-pages": "^6.3.0"
   }
 }

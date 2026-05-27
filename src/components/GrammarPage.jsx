@@ -3,6 +3,10 @@ import { useParams } from "react-router-dom";
 import grammar from "../data/grammar";
 import AudioButton from "./AudioButton";
 import { FiBookOpen, FiMessageSquare, FiInfo } from "react-icons/fi";
+import { Link } from "react-router-dom";
+
+<Link to="/conjugation/table-2">Conjugation Table 2</Link>
+
 
 function parseHighlight(text) {
   if (!text) return null;
@@ -48,6 +52,22 @@ export default function GrammarPage() {
                     <div key={i} className="grammatik-item">
                       <span className="grammatik-index">{i + 1}</span>
                       <p>{parseHighlight(item["erklärung"])}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {data.related?.length > 0 && (
+              <section className="lesson-section">
+                <h2 className="section-heading">
+                  <FiInfo /> Siehe Auch
+                </h2>
+                <div className="grammatik-list">
+                  {data.related.map((item, i) => (
+                    <div key={i} className="grammatik-item">
+                      
+                      <Link to={item}>Related lesson {i}</Link>
                     </div>
                   ))}
                 </div>

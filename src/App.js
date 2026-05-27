@@ -46,7 +46,7 @@ function Layout() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/assamese">
+    <BrowserRouter basename="/assamese_learn">
       <Layout />
     </BrowserRouter>
   );

@@ -1,0 +1,150 @@
+{
+  "title": "Lektion 7 – Akkusativ",
+  "introduction": [
+    
+    {
+      "erklärung":"Im Assamesischen müssen Nomen beim Zählen immer mit einem Klassifikator verbunden werden – ähnlich wie im Deutschen 'ein Blatt Papier' oder 'ein Stück Kuchen', nur ist es dort grammatisch verpflichtend: Man kann nicht einfach 'drei Buch' sagen, sondern braucht die richtige Form wie 'tini-khon kitap' (drei-CLF Buch)."
+    },
+
+    {
+        "erklärung":"eder Klassifikator kategorisiert Nomen nach Form, Belebtheit oder sozialem Status – so steht -zon für männliche Personen, -dal für lange stabförmige Dinge und -khon für flache Objekte; dazu kommen Honorativformen wie -goraki, die Respekt gegenüber der genannten Person ausdrücken."
+    },
+
+    {
+        "erklärung":"Obwohl Assamesisch eine indoarische Sprache ist, besitzt es dieses reiche Klassifikatorsystem vor allem durch Sprachkontakt mit benachbarten tibeto-burmanischen Sprachen wie Bodo und Garo – ein Beispiel für areale Diffusion, bei der grammatische Strukturen über Sprachgrenzen hinweg übernommen werden, unabhängig von der genetischen Verwandtschaft."
+    },
+    {
+        "erklärung":"Welche Klassifikator mit welchem Substantiv kommt ist schwer zu erklären. Es ist bisschen wie der, die , das in Deutsch. Es gibt ungefähr Regeln, aber die greifen nicht immer zu."
+    }
+
+
+
+    
+
+
+
+
+    
+  ],
+
+  "vocab": [
+    {
+    "deutsch": "Klassifikator für Männer / Personen (neutral/formell)",
+    "assamese": "-জন (-zon)",
+    "link to audio": "/audio/classifiers/zon.m4a"
+  },
+  {
+    "deutsch": "Klassifikator für Frauen",
+    "assamese": "-জনী (-zoni)",
+    "link to audio": "/audio/classifiers/zoni.m4a"
+  },
+  
+  {
+    "deutsch": "Klassifikator für flache / blattartige Objekte (Bücher, Matten, Zimmer, Land)",
+    "assamese": "-খন (-khon)",
+    "link to audio": "/audio/classifiers/khon.m4a"
+  },
+  {
+    "deutsch": "Klassifikator für allgemeine unbelebte Objekte (neutral/Standard)",
+    "assamese": "-টো (-tu)",
+    "link to audio": "/audio/classifiers/to.m4a"
+  },
+ 
+  {
+    "deutsch": "Klassifikator für lange, stabförmige Objekte (Stöcke, Seile, Flüsse, Straßen)",
+    "assamese": "-ডাল (-dal)",
+    "link to audio": "/audio/classifiers/dal.m4a"
+  },
+  {
+    "deutsch": "Klassifikator für dünne, blattförmige Objekte (Blätter, Papierbögen)",
+    "assamese": "-পাত (-pat)",
+    "link to audio": "/audio/classifiers/pat.m4a"
+  },
+  
+  {
+    "deutsch": "Klassifikator für gebundene Objekte",
+    "assamese": "-কিতা (-kita)",
+    "link to audio": "/audio/classifiers/kita.m4a"
+  },
+  {
+    "deutsch": "Pluralmarker für Personen / Dinge (allgemein)",
+    "assamese": "-বোৰ (-bür)",
+    "link to audio": "/audio/classifiers/bor.m4a"
+  },
+  {
+    "deutsch": "Pluralmarker (betont, definit)",
+    "assamese": "-বিলাক (-bilak)",
+    "link to audio": "/audio/classifiers/bilak.m4a"
+  },
+  {
+    "deutsch": "Kollektivmarker für Gruppen (z.B. eine Herde, eine Schar)",
+    "assamese": "-জাক (-zak)",
+    "link to audio": "/audio/classifiers/zak.m4a"
+  },
+  
+  {
+    "deutsch": "Kollektivmarker für Flüssigkeiten / Massennomen (z.B. die Milch, das Wasser)",
+    "assamese": "-খিনি (-khini)",
+    "link to audio": "/audio/classifiers/khini.m4a"
+  }
+    
+
+
+
+],
+
+"examples": [
+    {
+      "assamese": "Mur kitap khon bhari hoi",
+      "deutsch": "Mein Buch ist schwer",
+      "wort für wort": "Mein Buch schwer ist",
+      "link": "/audio/g9/Example_g_1.m4a"
+    },
+    {
+      "assamese": "Manuh jon aji ahibo ",
+      "deutsch": "Der man wird heute kommen",
+      "wort für wort": "Man der heute kommen (wird)",
+      "link": "/audio/g9/Example_g_2.m4a"
+    },
+
+
+    {
+      "assamese": "Sorai bur uri goise",
+      "deutsch": "Die Vogel fleigen weg",
+      "wort für wort": "Vogel die fliegen (weg)gehen",
+      "link": "/audio/g9/Example_g_3.m4a"
+    },
+    {
+      "assamese": "Alohi bilak ahise",
+      "deutsch": "Die Gaaste sind gekommen ",
+      "wort für wort": "Gaaste die kommen (sind gerade gekommen)",
+      "link": "/audio/g9/Example_g_4.m4a"
+    },
+
+    {
+      "assamese": "Eta Goru zak ahise",
+      "deutsch": "Eine Gruppe von Kuhe kommt",
+      "wort für wort": "Eine Gruppe von Kuhe kommt",
+      "link": "/audio/g9/Example_g_5.m4a"
+    }
+    ,
+
+    {
+      "assamese": "Bhat kita tan hoise",
+      "deutsch": "Die Reis ist hart (eher nicht weiich genug)",
+      "wort für wort": "Reise deise(menge) hart ist",
+      "link": "/audio/g9/Example_g_6.m4a"
+    }
+
+
+  ]
+
+
+
+    
+    
+  
+
+  
+  
+}

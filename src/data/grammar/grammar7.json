@@ -1,0 +1,99 @@
+{
+  "title": "Lektion 7 – Akkusativ",
+  "introduction": [
+    
+    {
+      "erklärung":"Das Personalpronom endet mit *k*, wenn die Person das direktes Objekt ist  "
+    }
+
+    
+
+
+
+
+    
+  ],
+
+  "vocab": [
+    {
+      "deutsch": "mich",
+      "assamese": "muk",
+      "link to audio":"/audio/g7/muk.m4a"
+    },
+    {
+      "deutsch": "dich",
+      "assamese": "tumak",
+      "link to audio": "/audio/g7/dich.m4a"
+    },
+    {
+      "deutsch": "ihn/sie",
+      "assamese": "Tak/Taik",
+      "link to audio": "/audio/g7/ihn.m4a"
+    },
+    {
+      "deutsch": "ihr",
+      "assamese": "tumalokok",
+      "link to audio": "/audio/g7/ihr.m4a"
+    },
+
+    {
+      "deutsch": "Sie",
+      "assamese": "apunak",
+      "link to audio": "/audio/g7/Sie.m4a"
+    },
+
+    {
+      "deutsch": "ihnen (P)",
+      "assamese": "apunalokok",
+      "link to audio": "/audio/g7/sie_p.m4a"
+    }
+
+
+
+],
+
+"examples": [
+    {
+      "assamese": "Tumi muk ball tu diba",
+      "deutsch": "Du wirst mich das Ball geben",
+      "wort für wort": "du mich ball geben (wirst)",
+      "link": "/audio/g7/Example_g_1.m4a"
+    },
+    {
+      "assamese": "Moi tumak phone korim ",
+      "deutsch": "ich werde dich anrufen",
+      "wort für wort": "ich dich anrufen (werde)",
+      "link": "/audio/g7/Example_g_2.m4a"
+    },
+
+
+    {
+      "assamese": "Moi Apunak ball tu dim",
+      "deutsch": "Ich werde Sie das Ball geben",
+      "wort für wort": "Ich Sie das Ball geben (werde)",
+      "link": "/audio/g7/Example_g_3.m4a"
+    },
+    {
+      "assamese": "Tumi Taik phone koriba",
+      "deutsch": "Du wirst ihr anrufen",
+      "wort für wort": "Du sie anrufen (wirst)",
+      "link": "/audio/g7/Example_g_4.m4a"
+    },
+
+    {
+      "assamese": "Moi apunalokok phone korim",
+      "deutsch": "ich werde sie anrufen",
+      "wort für wort": "ich  sie anrufen (werde)",
+      "link": "/audio/g7/Example_g_5.m4a"
+    }
+  ]
+
+
+
+    
+    
+  
+
+  
+  
+}

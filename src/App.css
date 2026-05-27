@@ -333,6 +333,13 @@ html, body, #root {
   font-size: 0.93rem;
 }
 
+.grammatik-item a {
+  color: var(--text);
+}
+.grammatik-item a:visited {
+  color: var(--text);
+}
+
 /* ── States ─────────────────────────────────────────────── */
 .lesson-error, .lesson-loading {
   padding: 40px;
