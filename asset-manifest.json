@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/assamese_learn/static/css/main.67b78f81.css",
-    "main.js": "/assamese_learn/static/js/main.9731dc4a.js",
+    "main.js": "/assamese_learn/static/js/main.1957f9e5.js",
     "static/js/9.3cfb931d.chunk.js": "/assamese_learn/static/js/9.3cfb931d.chunk.js",
     "static/js/580.65532867.chunk.js": "/assamese_learn/static/js/580.65532867.chunk.js",
-    "static/js/663.cd50601d.chunk.js": "/assamese_learn/static/js/663.cd50601d.chunk.js",
+    "static/js/663.ad73281d.chunk.js": "/assamese_learn/static/js/663.ad73281d.chunk.js",
     "static/js/194.6324be7c.chunk.js": "/assamese_learn/static/js/194.6324be7c.chunk.js",
     "static/js/637.caf6afb3.chunk.js": "/assamese_learn/static/js/637.caf6afb3.chunk.js",
     "static/js/131.53677a42.chunk.js": "/assamese_learn/static/js/131.53677a42.chunk.js",
@@ -25,10 +25,10 @@
     "static/js/45.fa774c0e.chunk.js": "/assamese_learn/static/js/45.fa774c0e.chunk.js",
     "index.html": "/assamese_learn/index.html",
     "main.67b78f81.css.map": "/assamese_learn/static/css/main.67b78f81.css.map",
-    "main.9731dc4a.js.map": "/assamese_learn/static/js/main.9731dc4a.js.map"
+    "main.1957f9e5.js.map": "/assamese_learn/static/js/main.1957f9e5.js.map"
   },
   "entrypoints": [
     "static/css/main.67b78f81.css",
-    "static/js/main.9731dc4a.js"
+    "static/js/main.1957f9e5.js"
   ]
 }
